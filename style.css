@@ -1,0 +1,59 @@
+:root {
+    --main-bg-color: #092031;
+}
+
+body {
+    background-color: var(--main-bg-color)
+    }
+
+h3 {
+    background-color: #1A759F;
+    margin-top: 0;
+    max-width:100%;
+    border-radius: 0.25em;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 128px;
+    font-family: 'Lobster', Helvetica;
+}
+
+div {
+    background-color: #76C893;
+    border-radius: 0.25em;
+    padding-left: 1.25em;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    padding-right: 1.25em;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.header-background {
+    padding-top: 24px;
+    width: 100%;
+    margin-left: -1em;
+    background-image: url("images/mountains_background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 240px;
+    color: antiquewhite;
+}
+
+.custom-class {
+    background-color: #B5E48C;
+}
+
+#title-text {
+    height: 100%;
+    vertical-align: middle;
+}
+
+#screenshot-1 {
+    height: max-content;
+    width: 100%;
+}

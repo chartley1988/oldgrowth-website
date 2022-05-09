@@ -3,7 +3,11 @@
 }
 
 body {
-    background-color: var(--main-bg-color)
+    background-color: var(--main-bg-color);
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-self: center;
     }
 
 h3 {
@@ -25,18 +29,14 @@ div {
     background-color: #76C893;
     border-radius: 0.25em;
     padding-left: 1.25em;
-    padding-top: 3em;
+    padding-top: 1em;
     padding-bottom: 0.5em;
     padding-right: 1.25em;
     margin-top: 1em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
 }
 
 .header-background {
     padding-top: 24px;
-    width: 100%;
-    margin-left: -1em;
     background-image: url("images/mountains_background.png");
     background-size: cover;
     background-position: center;

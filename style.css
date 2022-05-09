@@ -1,13 +1,14 @@
 :root {
     --main-bg-color: #092031;
+    width: 100vw;
 }
 
 body {
     background-color: var(--main-bg-color);
-    width: 80%;
+    width: 60vw;
     margin-left: 1rem;
     margin-right: 1rem;
-    align-self: center;
+    margin: auto;
     }
 
 h3 {

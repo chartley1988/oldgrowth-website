@@ -1,60 +1,51 @@
 :root {
-    --main-bg-color: #092031;
+    /* Color Scheme */
+    --background: #184E77;
+    --accent-1: #168AAD;
+    --accent-2: #76C893;
+    --highlight: #D9ED92;
+
     width: 100vw;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 body {
-    background-color: var(--main-bg-color);
-    width: 60vw;
+    background-color: var(--background);
+    width: 940px;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin: auto;
-    }
+ }
+
+p {
+    line-height: 2.5rem;
+    font-family: 'Libre Baskerville', Helvetica;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+}
 
 h3 {
-    background-color: #1A759F;
-    margin-top: 0;
-    max-width:100%;
-    border-radius: 0.25em;
-    color: whitesmoke;
-    font-size: 2em;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.content-box {
+    background-color: var(--accent-2);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.25rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.website-title {
     text-align: center;
-}
-
-h1 {
-    font-size: 128px;
-    font-family: 'Lobster', Helvetica;
-}
-
-div {
-    background-color: #76C893;
-    border-radius: 0.25em;
-    padding-left: 1.25em;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-    padding-right: 1.25em;
-    margin-top: 1em;
-}
-
-.header-background {
-    padding-top: 24px;
-    background-image: url("images/mountains_background.png");
-    background-size: cover;
-    background-position: center;
-    min-height: 240px;
+    font-size: 16rem;
     color: antiquewhite;
+    font-family: 'Lobster', Helvetica;
+    letter-spacing: 12px;
+
 }
 
-.custom-class {
-    background-color: #B5E48C;
-}
-
-#title-text {
-    height: 100%;
-    vertical-align: middle;
-}
-
-#screenshot-1 {
-    height: max-content;
-    width: 100%;
-}

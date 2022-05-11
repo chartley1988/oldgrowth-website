@@ -108,6 +108,7 @@ h4 {
 }
 
 .media-element {
-    width: 100%;
+    flex: auto;
+    max-width: 100%;
     justify-self: center;
 }

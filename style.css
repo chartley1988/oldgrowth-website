@@ -98,3 +98,16 @@ h4 {
     flex: content;
     margin-bottom: 0;
 }
+
+.media-grid {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+
+.media-element {
+    width: 100%;
+    justify-self: center;
+}

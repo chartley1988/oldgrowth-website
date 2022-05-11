@@ -41,6 +41,7 @@ h4 {
     font-size: 1.8rem;
 }
 
+
 .content-box {
     background-color: var(--highlight);
     padding: 1rem;
@@ -64,17 +65,19 @@ h4 {
     margin-bottom: 2rem;
     padding: 1rem 6rem 1rem 6rem;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     background-color: var(--accent-2);
     border-radius: 0 0 3rem 3rem;
 }
 
-.nav-element {
+.nav-element a {
+    text-decoration: none;
     padding-left: 1rem;
     padding-right: 1rem;
     flex: 1 1 auto;
     text-align: center;
-    font-size: 4rem;
+    word-spacing: -6px;
+    font-size: 3rem;
     color: antiquewhite;
     font-family: 'Lobster', Helvetica;
     letter-spacing: 4px;

@@ -109,6 +109,9 @@ h4 {
 
 .media-element {
     flex: auto;
+    border-radius: 2rem;
+    border: 2px solid antiquewhite;
     max-width: 100%;
     justify-self: center;
+    box-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.4);
 }

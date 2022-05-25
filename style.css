@@ -58,13 +58,14 @@ h4 {
 .website-title {
     margin-bottom: 0;
     margin-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     background-color: var(--accent-1);
     border-radius: 3rem 3rem 0 0;
     font-size: 16rem;
     color: antiquewhite;
     font-family: 'Lobster', Helvetica;
-    letter-spacing: 12px;
+    letter-spacing: 8px;
 
 }
 
